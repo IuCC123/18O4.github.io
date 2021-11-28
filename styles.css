@@ -45,6 +45,9 @@ html {
   text-decoration: none;
   font-size: 2rem;
 }
+#navbar__logo img {
+  margin-right: 8px;
+}
 .navbar__menu {
   display: flex;
   align-items: center;
@@ -507,7 +510,17 @@ html {
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  cursor: default;
+}
+.footer__logo img {
+  margin-right: 8px;
+}
+.footer__logo p {
+  color: #fff;
+  transition: 0.3s ease;
+}
+.footer__logo:hover p {
+  color: #ff9100;
+  transition: 0.3s ease;
 }
 .footer__links {
   width: 100%;
@@ -537,6 +550,18 @@ html {
   text-decoration: none;
   margin-bottom: 0.5rem;
   transition: 0.2s ease-out;
+  cursor: pointer;
+}
+.discord .hiddentext {
+  transition: 0.3s ease;
+  color: gray;
+  visibility: hidden;
+}
+.discord:hover .hiddentext {
+  transition: 0.3s ease;
+  color: gray;
+  visibility: visible;
+  margin-left: 5px;
 }
 .footer__link--items a:hover {
   color: #ff9100;

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>18O4 Website</title>
-  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="styles.css" />
   <script src="https://kit.fontawesome.com/31d41c2217.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
@@ -15,7 +15,10 @@
 <body>
   <nav class="navbar">
     <div class="navbar__container">
-      <a href="/" id="navbar__logo">18O4</a>
+      <a href="/" id="navbar__logo">
+        <img src="/images/favicon.png" width="24" height="24">
+        18O4
+      </a>
       <div class="navbar__toggle" id="mobile-menu">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -54,24 +57,16 @@
   </div>
   <!-- services section -->
   <div class="services">
-    <h1>About me</h1>
-    <div class="aboutme__container">
-      <div class="aboutme__card">
-        <h2>Hello, I am 18O4</h2>
-        <p>On a daily basis I am a gamer, but sometimes I write discord bots in Python.</p>
-        <button class="main__btn" href=""><a href="">More about me</a></button>
-      </div>
-    </div>
     <h1>My projects</h1>
     <div class="services__container">
       <div class="services__card">
         <h2>Skyblock Bob</h2>
-        <p>About my discord bot</p>
+        <p>Hypixel Skyblock related bot <br> made in Python</p>
         <button class="main__btn" href=""><a href="">Take a look</a></button>
       </div>
       <div class="services__card">
         <h2>18O4.github.io</h2>
-        <p>About my website</p>
+        <p>My own website!</p>
         <button class="main__btn" href=""><a href="">View</a></button>
       </div>
     </div>
@@ -82,19 +77,18 @@
       <div class="footer__link--wrapper">
         <div class="footer__link--items">
           <h2>About Me</h2>
-          <a href="/about.html">About me</a>
+          <a href="/about">About Me</a>
+          <a href="https://namemc.com/profile/18O4.1">NameMC</a>
           <!-- <a href="/"></a>
-            <a href="/"></a>
-            <a href="/"></a> -->
+          <a href="/"></a> -->
           <a href="https://youtu.be/FazgJVnrVuI">Website Credit</a>
         </div>
         <div class="footer__link--items">
           <h2>Contact Me</h2>
-          <a href="/">Discord</a>
-          <!-- <a href="/"></a>
-            <a href="/"></a>
-            <a href="/"></a>
-            <a href="/"></a> -->
+          <div class="discord">
+            <a>Discord</a>
+            <span class="hiddentext"> 18O4#4350</span>
+          </div>
         </div>
       </div>
     </div>
