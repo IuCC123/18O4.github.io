@@ -376,7 +376,7 @@ html {
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("images/bob.jpg");
+    url("../images/bob.jpg");
     background-size: cover;
     position: relative;
     color: #fff;
@@ -388,7 +388,7 @@ html {
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.6) 100%
       ),
-      url("images/18o4.jpg");
+      url("../images/18o4.jpg");
 }
 .services h2 {
     position: absolute;
@@ -434,7 +434,7 @@ html {
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("images/18o4.jpg");
+    url("../images/18o4.jpg");
     background-size: cover;
     position: relative;
     color: #fff;
