@@ -1,150 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>18o4</title>
+    <meta content="18o4" property="og:title" />
+    <meta content="A portfolio website." property="og:description" />
+    <meta content="https://18o4.github.io" property="og:url" />
+    <meta content="https://18o4.github.io/images/18o4.jpg" property="og:image"/>
+    <!-- <meta content="#ff9100" data-react-helmet="true" name="theme-color" /> -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>18O4 Website</title>
-  <meta content="18O4 Website" property="og:title" />
-  <meta content="very cool website by 18O4" property="og:description" />
-  <meta content="https://18o4.github.io" property="og:url" />
-  <meta content="https://18o4.github.io/images/18o4.jpg" property="og:image" />
-  <meta content="#ff9100" data-react-helmet="true" name="theme-color" />
-  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
-  <link rel="stylesheet" href="styles.css" />
-  <script src="https://kit.fontawesome.com/31d41c2217.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
-</head>
+  <body>
+    <nav class="navbar">
+        <div class="navbar__content">
+            <div class="navbar__icons" id="icons">
+              <a href="/" class="navbar__icons-home"><img src="./noob.png" alt=""></a>
+              <a href="/" class="navbar__icons-.me" style="padding-left: 1.5vw;">.me</a>
+              <a href="/" class="navbar__icons-.py">.py</a>
+              <a href="/" class="navbar__icons-.jar">.jar</a>
+            </div>
+            <div class="navbar__bar"></div>
+        </div>
+    </nav>
 
-<body>
-  <nav class="navbar">
-    <div class="navbar__container">
-      <a href="/" id="navbar__logo">
-        <img src="/images/favicon.png" width="24" height="24">
-        18O4
-      </a>
-      <div class="navbar__toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-      <ul class="navbar__menu">
-        <li class="navbar__item">
-          <a href="/" class="navbar__links">Home</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/about" class="navbar__links">About me</a>
-        </li>
-        
-        <li class="navbar__item">
-          <a href="/skyblockbob" class="navbar__links">Skyblock Bob</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/" class="navbar__links">My Website</a>
-        </li>
-        <!-- <li class="navbar__item">
-          <a href="/" class="button">Home</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/about.html" class="button">About me</a>
-        </li>
-        
-        <li class="navbar__item">
-          <a href="/" class="button">Skyblock Bob</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/" class="button">My Website</a>
-        </li> -->
-      </ul>
+    <div class="main">
+      <h1>hi. im 18o4</h1>
     </div>
-  </nav>
-  <!-- hero section -->
-  <div class="main">
-    <div class="main__container">
-      <div class="main__content">
-        <h1>My Website</h1>
-        <h2>If you didn't realise yet, this is my website</h2>
-        <p>it's pretty cool, isn't it?</p>
-        <button class="main__btn"><a href="/">Start</a></button>
-      </div>
-      <div class="main__img--container">
-        <img src="images/18o4.jpg" alt="pic" id="main__img" />
-      </div>
-    </div>
-  </div>
-  <!-- services section -->
-  <div class="services">
-    <h1>About me</h1>
-    <div class="aboutme__container">
-      <div class="aboutme__card">
-        <h2>Hello, I am 18O4</h2>
-        <p>On a daily basis I am a gamer, but sometimes I write discord bots in Python.</p>
-        <button class="main__btn" href=""><a href="/about">More about me</a></button>
-      </div>
-    </div>
-    <h1>My projects</h1>
-    <div class="services__container">
-      <div class="services__card">
-        <h2>Skyblock Bob</h2>
-        <p>About my discord bot</p>
-        <button class="main__btn" href=""><a href="/skyblockbob">Take a look</a></button>
-      </div>
-      <div class="services__card">
-        <h2>18O4.github.io</h2>
-        <p>About my website</p>
-        <button class="main__btn" href=""><a href="">View</a></button>
-      </div>
-    </div>
-  </div>
-  <!-- footer section -->
-  <div class="footer__container">
-    <div class="footer__links">
-      <div class="footer__link--wrapper">
-        <div class="footer__link--items">
-          <h2>About Me</h2>
-          <a href="/about">About Me</a>
-          <a href="https://namemc.com/profile/18O4.1">NameMC</a>
-          <!-- <a href="/"></a>
-          <a href="/"></a>
-          <a href="/"></a> -->
-        </div>
-        <div class="footer__link--items">
-          <h2>Contact Me</h2>
-          <div class="discord">
-            <a>Discord</a>
-            <span class="hiddentext"> 18O4#4350</span>
-          </div>
-          <!-- <a href="/"></a>
-            <a href="/"></a>
-            <a href="/"></a>
-            <a href="/"></a> -->
-        </div>
-      </div>
-    </div>
-    <div class="social__media">
-      <div class="social__media--wrap">
-        <div class="footer__logo">
-          <a href="/secret/" id="footer__logo">
-            <img src="/images/favicon.png" width="24" height="24"/>
-            <p>18O4</p>
-          </a>
-        </div>
-        <p class="website__rights">© 2021 18O4. All rights reserved</p>
-        <div class="social__icons">
-          <a href="https://www.youtube.com/channel/UCz2aI2aQYYukk1mNb6cYFVg" class="social__icon--link" target="_blank">
-            <i class="fab fa-youtube"></i>
-          </a>
-          <a href="https://github.com/18O4" class="social__icon--link" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  
-  <script src="app.js"></script>
-</body>
-
+    <script src="scripts.js"></script>
+  </body>
 </html>
